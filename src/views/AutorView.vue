@@ -32,7 +32,7 @@ export default {
         id: novo_id,
         autor_id: this.novo_autor,
         livro_id: this.novo_livro,
-      });
+      }, ),
     },
   },
 };
@@ -57,9 +57,9 @@ export default {
             </tr>
           </thead>
           <tbody>
-            <tr v-for="autores in autores" :key="!autores_id">
+            <tr v-for="autores in autores" :key="autores.id">
               <td>{{ autores.id }}</td>
-              <td>{{ livros_id }}</td>
+              <td>{{ livros.id }}</td>
               <td>??</td>
             </tr>
           </tbody>
@@ -69,3 +69,4 @@ export default {
   </main>
   <p>sahygduasytfdsa</p>
 </template>
+<style></style>

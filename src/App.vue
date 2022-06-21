@@ -6,6 +6,7 @@ export default {
 </script>
 <template>
   <MenuLateral />
+ 
 </template>
 
 <style></style>
