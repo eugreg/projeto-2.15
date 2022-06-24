@@ -6,7 +6,10 @@ export default {
 </script>
 <template>
   <MenuLateral />
+  <RouterView />
  
 </template>
 
-<style></style>
+<style>
+
+</style>

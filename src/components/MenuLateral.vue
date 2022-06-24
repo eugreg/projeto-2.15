@@ -1,11 +1,11 @@
 <template>
-<aside>
+  <aside>
     <div class="entidades">
-        Home
-        <span> <RouterLink to="/autor">Autores</RouterLink></span>
-        Livros
-        Editores
-        Categorias
+      <span> <RouterLink to="/autor">Autores</RouterLink></span>
+      <span> <RouterLink to="/">Home</RouterLink></span>
+      <span> <RouterLink to="/livros">Livros</RouterLink></span>
+      <span> <RouterLink to="/editoras">Editoras</RouterLink></span>
+      <span> <RouterLink to="/categoria">Categorias</RouterLink></span>
     </div>
-</aside>
+  </aside>
 </template>

@@ -31,8 +31,8 @@ const router = createRouter({
       component: LivrosView
     },
     {
-      path: '/editores',
-      name: 'Editores',
+      path: '/editoras',
+      name: 'Editoras',
       component: EditorView
     },
   ]
